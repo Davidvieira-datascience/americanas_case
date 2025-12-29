@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+.venv/
+env/
+
+# Dados (Não enviar dados pesados ou sensíveis para o GitHub)
+dados/
+data/
+*.csv
+*.parquet
+*.xlsx
+*.xls
+
+# Credenciais e Segredos (CRÍTICO)
+credentials.json
+client_secret.json
+service_account.json
+
+# Logs e Temporários
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Relatórios gerados (opcional, mas vou deixar os mds)
+# relatorios/
